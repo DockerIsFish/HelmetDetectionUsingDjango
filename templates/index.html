@@ -1,0 +1,21 @@
+{% extends 'home.html' %}
+{% block content %}
+<!-- 
+<talbe>
+    <center>
+      <tr>
+        <td wwidth='50%'>
+        <img src="{% url 'detect_video:stream' %}" width="700" height="400"> 
+        </td>
+    </tr> 
+    </center>
+</talbe>
+ -->
+ <talbe>
+  <center>
+    <tr>
+      <h1><a href = "{% url 'detect_video:stream' %}" class="btn btn-primary">web cam 열기</a></h1>
+  </tr> 
+  </center>
+</talbe>
+{% endblock %}
